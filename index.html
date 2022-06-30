@@ -36,7 +36,7 @@
 
 	 	// A Web3Provider wraps a standard Web3 provider, which is
 		// what MetaMask injects as window.ethereum into each page
-		const provider = new ethers.providers.Web3Provider(window.ethereum);
+		const provider = new ethers.providers.Web3Provider(window.ethereum, "ropsten");
 
 	 	const MoodContractAddress = "0x5D3A2433Eaa9Eb6b0Aa39a571e5948aa634057c1";
 
